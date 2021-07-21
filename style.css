@@ -1,0 +1,19 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-rendering: optimizeLegibility;
+}
+form {
+    margin:auto;
+    text-align: center;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: midnightblue;
+    font-size: 70px;
+}
+
+h1::first-letter{
+    color: magenta;
+}
